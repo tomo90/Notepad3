@@ -15,10 +15,10 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// English (United States) resources
+// Czech (Czechia) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
-LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+LANGUAGE LANG_CZECH, SUBLANG_CZECH_CZECHIA
 #pragma code_page(65001)  // UTF-8
 
 #ifdef APSTUDIO_INVOKED
@@ -55,79 +55,81 @@ END
 
 STRINGTABLE
 BEGIN
-    IDT_FILE_NEW            "New"
-    IDT_FILE_OPEN           "Open"
-    IDT_FILE_BROWSE         "Browse"
-    IDT_FILE_SAVE           "Save"
-    IDT_FILE_RECENT         "History"
-    IDT_EDIT_UNDO           "Undo"
-    IDT_EDIT_REDO           "Redo"
-    IDT_EDIT_CUT            "Cut"
-    IDT_EDIT_COPY           "Copy"
+    IDT_FILE_NEW            "Nový"
+    IDT_FILE_OPEN           "Otevřít"
+    IDT_FILE_BROWSE         "Procházet"
+    IDT_FILE_SAVE           "Uložit"
+    IDT_FILE_RECENT         "Historie"
+    IDT_EDIT_UNDO           "Zpět"
+    IDT_EDIT_REDO           "Znovu"
+    IDT_EDIT_CUT            "Vyjmout"
+    IDT_EDIT_COPY           "Kopírovat"
 END
 
 STRINGTABLE
 BEGIN
-    IDT_EDIT_PASTE          "Paste"
-    IDT_EDIT_FIND           "Find"
-    IDT_EDIT_REPLACE        "Replace"
-    IDT_VIEW_WORDWRAP       "Word Wrap"
-    IDT_VIEW_ZOOMIN         "Zoom In"
-    IDT_VIEW_ZOOMOUT        "Zoom Out"
-    IDT_VIEW_SCHEME         "Select Scheme"
-    IDT_VIEW_SCHEMECONFIG   "Customize Schemes"
-    IDT_FILE_EXIT           "Exit"
-    IDT_FILE_SAVEAS         "Save As"
-    IDT_FILE_SAVECOPY       "Save Copy"
-    IDT_EDIT_CLEAR          "Delete"
-    IDT_FILE_PRINT          "Print"
-    IDT_FILE_OPENFAV        "Favorites"
-    IDT_FILE_ADDTOFAV       "Add to Favorites"
-    IDT_VIEW_TOGGLEFOLDS    "Toggle Folds"
+    IDT_EDIT_PASTE          "Vložit"
+    IDT_EDIT_FIND           "Najít"
+    IDT_EDIT_REPLACE        "Nahradit"
+    IDT_VIEW_WORDWRAP       "Zalamovat text"
+    IDT_VIEW_ZOOMIN         "Zvětšit"
+    IDT_VIEW_RESETZOOM      "Obnovit přiblížení"
+    IDT_VIEW_ZOOMOUT        "Zmenšit"
+    IDT_VIEW_SCHEME         "Vybrat schéma"
+    IDT_VIEW_SCHEMECONFIG   "Upravit schéma"
+    IDT_FILE_EXIT           "Konec"
+    IDT_FILE_SAVEAS         "Uložit jako"
+    IDT_FILE_SAVECOPY       "Uložit kopii"
+    IDT_EDIT_CLEAR          "Smazat"
+    IDT_FILE_PRINT          "Tisk"
+    IDT_FILE_OPENFAV        "Oblíbené"
+    IDT_FILE_ADDTOFAV       "Přidat do oblíbených"
+    IDT_VIEW_TOGGLEFOLDS    "Rozbalit/sbalit uzly"
 END
 
 STRINGTABLE
 BEGIN
-    IDT_FILE_LAUNCH          "Execute Document"
-    IDT_VIEW_TOGGLE_VIEW     "Focused View"
-    IDT_VIEW_CHASING_DOCTAIL "Monitoring Log"
-    IDT_VIEW_PIN_ON_TOP      "Always On Top"
-    IDT_GREP_WIN_TOOL        "Search in Files"
+    IDT_FILE_LAUNCH          "Spustit dokument"
+    IDT_VIEW_TOGGLE_VIEW     "Nové prázdné okno"
+    IDT_VIEW_CHASING_DOCTAIL "Soustředěné zobrazení"
+    IDT_VIEW_CHASING_DOCTAIL "Monitor změn"
+    IDT_VIEW_PIN_ON_TOP      "Vždy navrchu"
+    IDT_GREP_WIN_TOOL        "Hledat v souborech"
 END
 
 STRINGTABLE
 BEGIN
-    IDS_MUI_APPTITLE_ELEVATED "%s : Elevated"
-    IDS_MUI_APPTITLE_PASTEBOARD "%s : Clipboard"
-    IDS_MUI_UNTITLED        "Untitled"
+    IDS_MUI_APPTITLE_ELEVATED "%s : Zvýšené oprávnění"
+    IDS_MUI_APPTITLE_PASTEBOARD "%s : Schránka"
+    IDS_MUI_UNTITLED        "Beze jména"
     IDS_MUI_TITLEEXCERPT    """%s"""
-    IDS_MUI_READONLY        "(Read Only)"
-    IDS_MUI_FILELOCKED      "<Exclusive>"
-    IDS_MUI_LOADFILE        "Loading ""%s""..."
-    IDS_MUI_SAVEFILE        "Saving ""%s""..."
-    IDS_MUI_PRINTFILE       "Printing page %i..."
-    IDS_MUI_SAVINGSETTINGS  "Saving settings..."
-    IDS_MUI_LINKDESCRIPTION "Edit with Notepad3"
+    IDS_MUI_READONLY        "(Jen pro čtení)"
+    IDS_MUI_FILELOCKED      "<Exkluzivní>"
+    IDS_MUI_LOADFILE        "Načítání""%s""..."
+    IDS_MUI_SAVEFILE        "Ukládání ""%s""..."
+    IDS_MUI_PRINTFILE       "Tisk strany %i..."
+    IDS_MUI_SAVINGSETTINGS  "Ukládání nastavení..."
+    IDS_MUI_LINKDESCRIPTION "Upravit v Notepad3"
 END
 
 STRINGTABLE
 BEGIN
-    IDS_MUI_FILTER_ALL      "All files (*.*)|*.*|"
-    IDS_MUI_FILTER_EXE      "Executable files (*.exe;*.com;*.bat;*.cmd;*.lnk;*.pif)|*.exe;*.com;*.bat;*.cmd;*.lnk;*.pif|All files (*.*)|*.*|"
-    IDS_MUI_FILTER_INI      "Configuration files (*.ini)|*.ini|All files (*.*)|*.*|"
-    IDS_MUI_FILTER_BITMAP   "Bitmap files (*.bmp)|*.bmp|All files (*.*)|*.*|"
-    IDS_MUI_OPENWITH        "Select the directory with links to your favorite applications."
-    IDS_MUI_FAVORITES       "Select the directory with links to your favorite files."
-    IDS_MUI_BACKSLASHHELP   "Backslash Transformations\n\n\\a\tAlert (BEL, Ascii 7)\n\\b\tBackspace (BS, Ascii 8)\n\\f\tFormfeed (FF, Ascii 12)\n\\n\tNewline (LF, Ascii 10)\n\\r\tCarriage return (CR, Ascii 13)\n\\t\tHorizontal Tab (HT, Ascii 9)\n\\v\tVertical Tab (VT, Ascii 11)\n\\0oo\tOctal Value\n\\u####\tHexadecimal Value\n\\xhh\tHexadecimal Value\n\\\\\tBackslash"
-    IDS_MUI_REGEXPHELP      "RegExp Matching Syntax (Multi Lines)\n\n.\tMatches any character\n^\tEmpty string immediately after Newline\n$\tEmpty string immediately before End of Line\n\\<\tStart of a word\n\\>\tEnd of a word\n\\b\tWord boundary\n[...]\tA set of chars ([abc]) or a range ([a-z])\n[^...]\tChars NOT in the set or range\n\\d\tAny decimal digit\n\\D\tAny non-digit char\n\\s\tAny whitespace char\n\\S\tNot a whitespace char\n\\w\tAny ""word"" char\n\\W\tAny ""non-word"" char\n\\x\tEscape character with otherwise special meaning\n\\xHH\tChar with hex code HH\n?\tMatches preceding 0 or 1 times\n*\tMatches preceding 0 or more times\n+\tMatches preceding 1 or more times\n*? or +?\tNon greedy matching of quantifiers ""?"" and ""+""\n(\tStart of a region\n)\tEnd of a region\n\\n\tRefers to a region when replacing (n is 1-9)\n"
-    IDS_MUI_WILDCARDHELP    "Wildcard Search\n\n*\tMatches zero or more characters.\n?\tMatches exactly one character. "
+    IDS_MUI_FILTER_ALL      "Všechny soubory (*.*)|*.*|"
+    IDS_MUI_FILTER_EXE      "Spustitelné soubory (*.exe;*.com;*.bat;*.cmd;*.lnk;*.pif)|*.exe;*.com;*.bat;*.cmd;*.lnk;*.pif|All files (*.*)|*.*|"
+    IDS_MUI_FILTER_INI      "Konfigurační soubory (*.ini)|*.ini|All files (*.*)|*.*|"
+    IDS_MUI_FILTER_BITMAP   "Bitmapové soubory (*.bmp)|*.bmp|All files (*.*)|*.*|"
+    IDS_MUI_OPENWITH        "Vybrat adresář s odkazy na vaše oblíbené aplikace."
+    IDS_MUI_FAVORITES       "Vybrat adresář s odkazy na vaše oblíbené soubory."
+    IDS_MUI_BACKSLASHHELP   "Transformace zpětného lomítka\n\n\\a\tVýstraha (BEL, Ascii 7)\n\\b\tKrok zpět (BS, Ascii 8)\n\\f\tInformační formulář (FF, Ascii 12)\n\\n\tNový řádek (LF, Ascii 10)\n\\r\tMezera (CR, Ascii 13)\n\\t\tHorizontální tabulátor (HT, Ascii 9)\n\\v\tVertikální tabulátor (VT, Ascii 11)\n\\0oo\tOsmičková hodnota\n\\u####\tHexadecimální hodnota\n\\xhh\tHexadecimální hodnota\n\\\\\tZpětné lomítko"
+    IDS_MUI_REGEXPHELP      "Syntaxe shody RegExp (více řádků)\n\n.\tOdpovídá libovolnému znaku\n^\tPrázdný řetězec ihned po novém řádku\n$\tPrázdný řetězec těstně před koncem řádku\n\\<\tZačátek slova\n\\>\tKonec slova\n\\b\tHranice slova\n[...]\tSada znaků ([abc]) nebo rozsah ([a-z])\n[^...]\tZnaky NEJSOU v sadě nebo rozsahu\n\\d\tJakákoliv desetinná číslice\n\\D\tJakýkoliv nečíselný znak\n\\s\tJakýkoliv znak mezery\n\\S\tNení znak mezery\n\\w\tJakýkoliv znak jako ""word""\n\\W\tJakýkoliv znak, který ""není slovo""\n\\x\tÚniková znak s jiným zvláštním významem\n\\xHH\tZnak s hexadecimálním kódem HH\n?\tZhody předcházející 0 nebo 1 krát\n*\tZhody předcházející 0 nebo vícekrát\n+\tZhody předcházející 1 nebo vícekrát\n*? or +?\tNepřímá shoda kvantifikátorů ""?"" a ""+""\n(\tZačátek oblasti\n)\tKonec oblasti\n\\n\tPři záměně odkazuje na oblast (n je 1-9)\n"
+    IDS_MUI_WILDCARDHELP    "Vyhledávání se zaástupnými znaky\n\n*\tOdpovídá nule nebo více znakům.\n?\tOdpovídá přesně jednomu znaku. "
 END
 
 STRINGTABLE
 BEGIN
-    IDS_MUI_ERR_LOADFILE    "Error loading ""%s""."
-    IDS_MUI_ERR_SAVEFILE    "Error saving ""%s""."
-    IDS_MUI_ERR_DLG_FORMAT  "Error '%s', cause:\n%s(ID:%d)\n"
+    IDS_MUI_ERR_LOADFILE    "Chyba při načítání ""%s""."
+    IDS_MUI_ERR_SAVEFILE    "Chyba při ukládání ""%s""."
+    IDS_MUI_ERR_DLG_FORMAT  "Chyba'%s', důvod:\n%s(ID:%d)\n"
     IDS_MUI_ERR_BROWSE      "No file browser plugin was found.\nThe MiniPath file browser plugin can be downloaded from https://rizonesoft.com."
     IDS_MUI_ERR_GREPWIN     "No file search plugin was found.\nThe grepWinNP3 file search plugin can be downloaded from https://rizonesoft.com."
     IDS_MUI_ERR_MRUDLG      "No access to the selected file!\nWould you like to remove it from the list?"
